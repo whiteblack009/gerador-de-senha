@@ -1,0 +1,17 @@
+:root{
+    --branco: rgb(255, 255, 255);
+    --cordefundo: rgb(0, 0, 0);
+    --fundodesenha: beige;
+    --fundodotexto: blue;
+    --borda: rgb(255, 0, 0);
+    --Quicksand:"Quicksand" , sans-serif;
+    --QuicksandMono: "Quicksand Mono" , monospace;
+}
+body{
+    color:var(--branco);
+    background-color: var(--cordefundo);
+
+}.titulo-principal{
+    font-family: var(--Quicksand:);
+}
+.titulo-secundario{ font-family: var(--QuicksandMono);}
