@@ -7,6 +7,10 @@
     --Quicksand:"Quicksand" , sans-serif;
     --QuicksandMono: "Quicksand Mono" , monospace;
 }
+
+*{
+    font-size: 400;
+}
 body{
     color:var(--branco);
     background-color: var(--cordefundo);
@@ -15,3 +19,14 @@ body{
     font-family: var(--Quicksand:);
 }
 .titulo-secundario{ font-family: var(--QuicksandMono);}
+
+.conteudo-titulo{ text-align: center ;
+    margin-top: 80px ;
+
+
+}
+.conteudo-senha{
+    background-color: var(--fundodesenha);
+    padding: 24px;
+    border-bottom: 6px solid var (--borda);
+}
